@@ -51,19 +51,21 @@ The combined dataset was used to train a CNN for shape classification.
 
 ```bash
 git clone https://github.com/APEXPRE123207/edudetect.git
-cd edudetect
-
+cd edudetect 
+```
 
 2. Create the environment using Conda and pip. All the requires packages files are in the Required folder.
-
+```
 conda create -n edudetect --file conda_packages.txt
 conda activate edudetect
+```
 
 Then install pip-specific dependencies:
-
+```
 pip install -r pip_packages.txt
 
 pip install -r Requirements.txt
+```
 3. Download YOLOv3 Weights
 Place the following files in Resources/.cvlib/object_detection/yolo/yolov3/:
 
@@ -76,8 +78,9 @@ coco.names
 You can get them from: https://pjreddie.com/darknet/yolo/
 
 🚀 Run the Application
-
+```
 python main.py
+```
 
 This will:
 

@@ -28,22 +28,25 @@ The combined dataset was used to train a CNN for shape classification.
 ---
 
 ## 🗂️ Project Structure
-
+```
 ├── Assets/ # Saved webcam images and trained models
 │ └── Pics/ # Auto-saved object images
+│ └── Training_model.py 
 ├── Required/ # CSVs and PyTorch model
+│ ├── conda_packages.txt # Conda environment file
+│ ├── pip_packages.txt # pip requirements file
+│ ├── Requirements.txt # Minimal install file
+├── Resources/ # YOLO configs, weights, and cvlib
 │ ├── colors4.csv # Color name and RGB data
 │ ├── shapes_model_v1.pth # Trained PyTorch shape model
-├── Resources/ # YOLO configs, weights, and cvlib
-├── color_identification.py # Detects the dominant object color
-├── shape_detection_v2.py # Masks the object based on its color
-├── test_model.py # Loads and predicts shape using CNN
-├── voice.py # Handles speech output and recognition
-├── main.py # Real-time detection and interaction loop
-├── conda_packages.txt # Conda environment file
-├── pip_packages.txt # pip requirements file
-├── Requirements.txt # Minimal install file
+├── Main
+│ ├── color_identification.py # Detects the dominant object color
+│ ├── shape_detection_v2.py # Masks the object based on its color
+│ ├── test_model.py # Loads and predicts shape using CNN
+│ ├── voice.py # Handles speech output and recognition
+│ ├── main.py # Real-time detection and interaction loop
 
+```
 
 ## ⚙️ Installation
 

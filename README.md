@@ -49,8 +49,10 @@ The combined dataset was used to train a CNN for shape classification.
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/APEXPRE123207/edudetect.git
 cd edudetect
+
 
 2. Create the environment using Conda and pip. All the requires packages files are in the Required folder.
 
